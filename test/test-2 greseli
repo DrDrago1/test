@@ -1,0 +1,20 @@
+.Rindul 4 UTF nu e scris corect trebuie UTF-8
+.As pune tegul STYLE dupa toate tegurile care sunt in head.
+.Rindul 9 Intre 200 si PX nu trebueste sa fie probel(este scris asa 200 px, dar trebuie asa 200px)
+.Rindul 10 selectorul e scris incorect
+.Rindul 11 Culoarea nu este scrisa corect(trebuia fara #)
+.Rindul 13 Br din tegul title sunt scrise in zadar pentru ca nu o sa lucreze
+.Rindul 13 titlul este prea lung 
+.La toate BR trebuie de adaugat o bara la urma pentru ca e teg singur(nui obligatoriu).
+.Stilurile care sunt Inline leas pune sus in head 
+.Rindul 16 Raspuns: sunt scrise corect
+.Rindul 23 tegului header trebuie de-i adaugat o bara la inceput de cuvint pentru ca fara bara el nu se va inchide
+.Rindul 24 Raspuns: eu as da elementele Article ori Section
+.Rindul 27 Tegului IMG de ii adaugat atributul alt si o bara la urma
+.Rindul 29 imaginea va avea marimea ei originala pentru ca in Style nu e scris corect proprietatea
+.Rindul 34 Raspuns: toate tegurile sunt teguri duble dar ele sunt scrise ca teguri singure(trebuie de inchis tegurile)
+.Rindul 37 Raspuns: tegul b doar face literele mai groase iar tegul strong le face sa fie si importante
+.Rindul 39 Raspuns: eu as da elementul Footer
+.Rindul 40 lista va fi de culoare rosie pentru ca mosteneste culoarea de la Body
+.Rindul 41 Id se scrie fara probel
+.Toate h1 nu se vor vedea pentru ca au aceiasi culoare ca si background
