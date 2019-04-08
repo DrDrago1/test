@@ -1,0 +1,40 @@
+body{
+    background-color: #333;
+
+}
+#preloader{
+    width: 1px;
+    height: 1px;
+    border: 1px solid red;
+    margin-left: 50vw;
+    margin-top: 50vh;
+}
+#preloader figure{
+    background-color:transparent; 
+    width: 280px;
+    height: 280px;
+    transform: translateX(-50%) translateY(-50%) rotate(45deg);
+    box-shadow: 0 0 50px 5px black;
+    overflow: hidden;
+}
+#preloader img,
+#preloader figcaption{
+    /* display: none; */
+   
+    opacity: 1;
+}
+#preloader img{
+    transform: translateY(-70px)translateX(-100px) rotate(-45deg)!important;
+}
+#preloader figcaption{
+    transform: translateY(-350px)translateX(35px) rotate(-45deg)!important;
+}
+h3{
+    font-size: 25px;
+    
+}
+p{
+    transform: translateX(-35px);
+    color: white;
+    text-align: center;
+}

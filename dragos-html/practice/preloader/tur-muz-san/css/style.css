@@ -1,0 +1,37 @@
+body{
+    background-color: #111;
+
+}
+#background{
+     background-image: url(../images/lake-hd.jpg); /*(..)doua puncte inseamna ca sa se intoarca in urma */
+     background-size: cover;
+     background-position: center bottom;
+     position: absolute;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     animation: day-night 10s infinite;
+     /* mix-blend-mode: multiply; */
+}
+#background .swan{
+    background-size: contain;
+    position: absolute;
+    background-repeat: no-repeat;
+}
+
+#background .swan-1{
+    background-image: url(../images/swan1.png);
+    width: 20%;
+    height: 25%;
+    bottom: 10%;
+    transform: scaleX(-1);
+    animation: sww 5s infinite;
+}
+#background .swan-2{
+    background-image: url(../images/swan2.png);
+    width: 10%;
+    height: 10%;
+    right: 10%;
+    bottom: 20%;
+    }

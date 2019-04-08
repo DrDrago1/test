@@ -1,0 +1,12 @@
+scss/sass/less/stylus/....
+  css preprocessors
+  css + super powers (+ programming)
+  oficial site (sass-scss.ru)
+  browser NATIVE  no support
+
+  style.scss -> compile -> style.css
+
+  data types
+  variables
+  operations
+  functions

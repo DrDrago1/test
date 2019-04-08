@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Orbitron:400,900" rel="stylesheet">
+    <title>LED Preloader</title>
+    <style>
+       body{
+           background-color: #333;
+           color: #3f3;
+       }
+       #preloader{
+           list-style: none;
+           padding: 0px;
+           margin: 0px;
+           border: 2px solid red;
+           width: 200px;
+           height: 51px;
+           overflow: hidden;
+           text-align:right;
+           font-size: 50px;
+       }
+       #preloader li{
+           transform: translateY(-18px);
+           animation: slide 5s infinite;
+           animation-timing-function: steps(20);
+           font-family: 'Orbitron';
+       }
+       @keyframes slide{
+           from{
+            transform: translateY(2px);
+           }
+           to{
+            transform: translateY(-1012px);
+           }
+       }
+    </style>
+</head>
+
+<body>
+
+
+    <ul id="preloader">
+        <!-- <li>10</li> 
+        <li>20</li>
+        <li>30</li>
+        <li>40</li>
+        <li>50</li>
+        <li>60</li>
+        <li>70</li>
+        <li>80</li>
+        <li>90</li>
+        <li>100</li>-->
+       <li>. </li>
+       <li>_</li>
+       <li>. </li>
+       <li>_</li>
+       <li>. </li>
+       <li>_</li>
+       <li>. </li>
+       <li>h_</li>
+       <li>h</li>
+       <li>he_</li>
+       <li>he</li>
+       <li>hel_</li>
+       <li>hel</li>
+       <li>hell_</li>
+       <li>hell</li>
+       <li>hello_</li>
+       <li>hello</li>
+       <li> </li>
+       <li>hello</li>
+       <li>hello</li>
+    </ul>
+
+</body>
+</html>

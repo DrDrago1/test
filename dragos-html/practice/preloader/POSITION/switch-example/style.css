@@ -1,0 +1,57 @@
+body{
+    background-color: #333;
+    margin: 50px;
+}
+#toggle label{
+    border: 1px dotted green;
+    padding: 30px;
+    cursor: pointer;
+}   
+#toggle .thumb{
+    border: 1px solid #888;
+    padding-right: 20px;
+    border-radius: 20px;
+    color: brown;
+    background-color: #555;
+    transition: 0.5s;
+}
+#toggle input:checked+.thumb{
+    color: #393;
+    padding-left: 20px;
+    padding-right: 0px;
+}
+.text{
+    color: brown;
+}
+#toggle input:checked+.thumb+.text{
+    color: #393;
+    transition: 0.5s;
+}
+#toggle input{
+    display: none;
+}
+
+
+
+#carousel{
+    margin: 50px;
+}
+#carousel a{
+    color: white;
+}
+#carousel img{
+    margin: 5px;
+    box-shadow: 0 0 15px 2px #111;
+    opacity: 0;
+    position: absolute;
+    transition: 0.75s;
+    transform: rotate(0deg) scale(0);
+}
+#carousel img:hover{
+    transform: scale(1.1);
+}
+#image-1:target,
+#image-2:target{
+    opacity: 1;
+    transform: rotate(360deg) scale(1);
+}

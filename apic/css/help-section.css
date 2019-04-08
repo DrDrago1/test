@@ -1,0 +1,109 @@
+body{
+
+}
+#s-help{
+  background-color: #555;
+  position: relative;
+
+}
+#s-display{
+  background-color: #777;
+  position: relative;
+}
+.coll{
+  top: 30%;
+  width: 50%;
+  background-color: #999;
+  position: relative;
+  font-size: 20px;
+  right: 0px;
+
+}
+ .left{
+  right: -50%;
+
+}
+h1{
+  font-size: 2.5em;
+  padding-bottom: 0.6em;
+}
+small{
+  font-size: 1em;
+  position: relative;
+  top: -9em;
+}
+p{
+  font-size: 1em;
+  padding-bottom: 3em;
+}
+a{
+  font-size: 1.1em;
+  padding: 1em 2em;
+  border-radius: 4em;
+  background-color: #702dda;
+  color: white;
+}
+.r{
+
+}
+#s-help figure{
+  position: absolute;
+  top: 10%;
+
+}
+img{
+
+}
+#s-display figure{
+  position: absolute;
+  right: 13%;
+  top: 10%;
+}
+
+.section-white{
+  height: 100vh;
+  width: 1170px;
+  margin: 0px auto;
+}
+
+
+
+/*mobile display*/
+
+@media screen and (max-width:1172px){
+  .section-white{
+    width: 900px;
+  }
+}
+@media screen and (max-width:902px){
+  .section-white{
+    width: 96%;
+    height: auto;
+    text-align: center;
+  }
+  .coll{
+    position: static;
+    width: 100%;
+    padding-top: 60px;
+
+  }
+  #s-help figure{
+    position: static;
+    padding-top: 40px;
+  }
+  #s-display figure{
+    position: static;
+    padding-top: 40px;
+  }
+
+}
+@media screen and (max-width:512px){
+  small{
+    top: -11em;
+  }
+}
+@media screen and (max-width:412px){
+  small{
+    top: -13em;
+  }
+}

@@ -1,0 +1,34 @@
+@keyframes day-night{
+    from{
+        /* opacity: 0.0; */
+        /* filter: ; */
+        filter: blur(5px)brightness(10%);
+    }
+    50%{
+        /* opacity: 1.0; */
+        /* filter: ;  */
+        filter: blur(0px)brightness(200%);
+    }
+    to{
+        /* opacity: 0.0; */
+        /* filter: ; */
+        filter: blur(5px)brightness(10%);
+    }
+}
+@keyframes sww{
+    from{
+       left: 0%
+       
+    }
+    50%{
+        left: 20%;
+        transform: scaleX(-1)
+    }
+    51%{
+        transform: scaleX(1)
+    }
+    to{
+        left: 0%;
+        transform: scaleX(1)
+    }
+}

@@ -1,0 +1,141 @@
+/*
+MAIN-COLORS
+#37393F - GRAY+BLUIE
+#F6AF95 - SKIN
+#D0DADF - SKYE+DIRTY
+*/
+body{
+  font-family:'Quicksand', sans-serif;
+  /*background-color: #D0DADF;*/
+  background-image: url(8001.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+/*css media queries*/
+
+#bg-deco {
+  /*font-size: 200vh;
+  height: 300%;
+  width: 200%;
+  position: fixed;
+  color: #37393F;
+  /*background-image: url(patrat.svg);*/
+  /*text-shadow: 0 0 50VH #37393F;*/
+  /*background-color: RGBA(0,0,0,0.9);*/
+  /*opacity: 0.8;*/
+  /*background-size: cover;*/
+  /*mix-blend-mode:lighter;*/
+
+}
+#svg-1{
+  fill:#555;
+  opacity: 0.5;
+  height: 100%;
+  width: 100%;
+  transform: scale(5);
+  position:absolute;
+  z-index: -1;
+
+}
+#svg-2{
+  fill:#333;
+  opacity: 0.5;
+  height: 100%;
+  width: 100%;
+  transform: scale(5);
+  position:absolute;
+  z-index: -1;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*navigation*/
+#top{
+  background-color: rgba(55, 57, 63, 0.6);
+
+  text-align: center;
+}
+#top .fa-shopware{
+  font-size: 30px;
+
+}
+#top .main-nav{
+  margin: 0% 23%;
+}
+#top a{
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  padding:30px 13px;
+
+}
+#top ul,
+#top li,
+#top a{
+  display: inline-block;
+  vertical-align: middle;
+}
+#top .user li:nth-child(3){
+  display: none;
+}
+.main-nav .fa-bars{
+  display: none;
+}
+
+
+
+
+
+/*adaptiv*/
+@media screen and (max-width: 1510px){
+
+#top .main-nav{
+  margin: 0% 11%;
+}
+}
+
+
+@media screen and (max-width: 1080px){
+
+  #top .user li:nth-child(1),
+  #top .user li:nth-child(2){
+    display: none;
+
+  }
+  #top .user li:nth-child(3){
+    display:inline-block;
+  }
+}
+
+@media screen and (max-width: 920px){
+  #top .main-nav .fa-bars{
+    display: block;
+
+  }
+  #top .main-nav li:nth-child(2){
+    display: none;
+  }
+  #top .main-nav li:nth-child(3){
+    display: none;
+  }
+  #top .main-nav li:nth-child(4){
+    display: none;
+  }
+  #top .main-nav li:nth-child(5){
+    display: none;
+  }
+  #top .main-nav li:nth-child(6){
+    display: none;
+  }
+}

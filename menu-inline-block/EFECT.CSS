@@ -1,0 +1,14 @@
+@keyframes background{
+  0%{left: -60vh;top: 20vh}
+    25%{left: 10vh;top: 20vh}
+      50%{left: -60vh;top:20vh }
+        75%{left: 10vh;top: 20vh}
+          100%{left: -60vh;top: 20vh}
+}
+#svg-1{
+  animation: background 20s infinite;
+}
+#svg-2{
+    animation: background 10s infinite;
+    animation-delay: 2s;
+}
