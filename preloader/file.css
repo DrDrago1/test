@@ -1,0 +1,30 @@
+    body{
+        background-color: #333;
+    }
+
+#preloader{
+    padding: 200px;
+}
+
+    #preloader .square{ /* cauta square in preloader */
+        width: 200px;
+        height: 200px;
+        background-color: #444;
+        transform: rotate(45deg);
+        animation: rot 1.5s 10;
+    }
+
+    /* css animation */
+    @keyframes rot /* numele cadrului */{
+        from{ background-color:
+             #444; transform: rotate(45deg);
+            border-radius: 200px;}
+        to{ background-color:
+             #000;transform: rotate(405deg);
+            border-radius: 30px;}
+    }
+ 
+
+
+    
+

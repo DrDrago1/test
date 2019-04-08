@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+
+        /*  1) Tag selector */
+        body{
+            
+               background-color:#bec5d1;
+              width: 360px;
+         }
+         p{
+             background-color: rgba(233, 229, 223, 0.829);
+             height: 100px;
+             width: 100px;
+             margin: 10px;
+             float: left;
+         }
+        /*  2) Class selector */
+        .row{
+           border: 5px solid #999;
+           width: 90px;
+           height: 90px;
+        }
+        .col{
+             background-color: blanchedalmond;
+             border-radius: 60px;
+        }
+       #first{
+           border-radius: 100px 0px 0px 0px;
+
+       }
+       #last{
+           border-radius: 0px 0px 100px 0px;
+       }
+       #three{
+           border-radius: 0px 100px 0px 0px;
+       }
+       #seven{
+           border-radius: 0px 0px 0px 100px;
+       }
+       p:hover{
+           background-color: #bec5d1;
+       }
+       #fourth{
+           border-left-width: 1px;
+           border-right-width: 9px;
+       }
+       
+         
+    </style>
+</head>
+<body>
+    <p id="first">1</p>
+    <p class="col">2</p>
+    <p id="three">3</p>
+    <p class="row" id="fourth">4</p>
+    <p class="row col">5</p>
+    <p class="row">6</p>
+    <p id="seven">7</p>
+    <p class="col">8</p>
+    <p id="last">9</p>
+</body>
+</html>
+    

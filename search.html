@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="cssss.css">
+    <title>Search</title>
+</head>
+<body>
+
+    <h1>Search form</h1>
+
+    <form action="https://yandex.ru/search/"> 
+        <input name="text" placeholder="Cauta pe internet" size="50" type="text"> 
+     
+          <!-- <select name="text"> 
+            <option>Canada</option>
+            <option>S.U.A</option>
+            <option>Iceland</option>
+        </select>-->
+        <!-- <select name="lang"> 
+            <option>en</option>
+            <option>de</option>
+            <option>fr</option>
+            <option>ro</option>
+        </select>-->
+        <input type="hidden" value="de" name="lang">
+        <button>Cauta</button>
+    </form>
+
+    <form action="https://999.md/ro/search">
+        <input autocomplete="off" pattern="[A-Za-z]+" required name="query" type="text" placeholder="search in 999" autofocus>
+        <button>Go 999</button>
+    </form>
+
+</body>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Slide MENU</title>
+
+    <style>
+        body{
+            background-color: #456;
+        }
+        ul{
+            background-color: #678;
+            width: 200px;
+            list-style: none; /* scoate punctele */
+            padding: 0px;
+            border-left: 20px solid #789;
+            float: right;   /* pozitia contentului */
+            margin-right: -210px;
+            transition: 1s;
+        }
+        a{
+            text-decoration: none;  /* scoate liniile de jos */
+            color: #fff;
+            padding-left: 20px;  
+        }
+        li{
+            padding: 15px;
+            border-bottom: 3px solid #789;
+        }
+        li:last-child{
+            border-bottom: none;    /* sa sters stilu la ultimul li*/
+        }
+        li:hover{
+            background-color: #789;
+            transition-duration: 0.5s;
+        }
+        a::before{
+            content: "\25B6";
+            font-size: 15px;
+            padding-right: 10px;
+        }
+        ul:hover{
+            margin: 0px;
+            
+        }
+    </style>
+</head>
+<body>
+    
+    <nav>
+        <ul>
+            <li><a href="https://en.wikipedia.org/wiki/HTML">HTML</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets">CSS</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Sass_(stylesheet_language)">SCSS</a></li>
+            <li><a href="https://ro.wikipedia.org/wiki/JavaScript">JS</a></li>
+            <li><a href="https://ro.wikipedia.org/wiki/PHP">PHP</a></li>
+        </ul>
+    </nav>
+
+
+</body>
+</html>
